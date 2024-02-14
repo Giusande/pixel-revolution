@@ -1,3 +1,8 @@
+.games-pesq{
+    min-height: 100vh;
+    width: 100%;
+}
+
 .games-results{
     width: 80%;
     margin: 70px auto;
