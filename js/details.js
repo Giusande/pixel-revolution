@@ -46,5 +46,5 @@ document.addEventListener('DOMContentLoaded', function () {
   });
   
   function voltar() {
-    window.location.href = "../index.html"
+    window.location.href = "../"
   }
