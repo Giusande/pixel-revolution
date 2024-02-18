@@ -39,6 +39,11 @@
     font-size: 12px;
 }
 
+.game-div .genero-game{
+    margin-top: 30px;
+    text-decoration: underline;
+}
+
 .btns-game{
     position: absolute;
     bottom: -80px;

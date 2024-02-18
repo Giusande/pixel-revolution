@@ -33,12 +33,17 @@ document.addEventListener('DOMContentLoaded', function () {
     const btnGame = document.createElement('div');
     btnGame.innerHTML = `<a href="#" download="#" class"download-game">Fazer o download</a>`
     btnGame.classList.add('btns-game');
+
+    const generogame = document.createElement('p');
+    generogame.textContent = `Gênero: ${produto.genero}`
+    generogame.classList.add('genero-game');
   
     divDetalhes.appendChild(imgGame)
     divDetalhes.appendChild(divGame);
     divGame.appendChild(nomeProduto);
     divGame.appendChild(descGame);
-    divGame.appendChild(precoProduto);  
+    divGame.appendChild(generogame);
+    divGame.appendChild(precoProduto);
     divGame.appendChild(vercaoGame);
     divGame.appendChild(btnGame);
   
