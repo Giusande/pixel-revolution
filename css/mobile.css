@@ -39,7 +39,7 @@
     }
 
     .games-content{
-        height: auto;
+        min-height: auto;
         margin-bottom: 60px;
     }
 
